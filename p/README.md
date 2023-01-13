@@ -19,11 +19,11 @@ npm install vcrontab
 
 ```javascript
 //全局引入
-import vcrontab from "vcrontab";
+import vcrontab from "vcrontab2";
 Vue.use(vcrontab); //使用方式：<vcrontab></vcrontab>
 
 //单独引入
-import vcrontab from "vcrontab";
+import vcrontab from "vcrontab2";
 export default {
   components: { vcrontab },
 };
@@ -45,7 +45,7 @@ export default {
 </template>
 
 <script>
-import vcrontab from 'vcrontab'
+import vcrontab from 'vcrontab2'
 export default {
     components: { vcrontab },
     data() {

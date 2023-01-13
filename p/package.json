@@ -1,0 +1,35 @@
+{
+  "name": "vcrontab2",
+  "version": "0.1.1",
+  "author": "mrmcree",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrmcree/mrmcree-vCrontab_f.git"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "keywords": [
+    "cron",
+    "vue",
+    "vuecron",
+    "crontab",
+    "vue-crontab"
+  ],
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "cron-parser": "^4.7.1",
+    "cronstrue": "^2.21.0",
+    "element-ui": "^2.15.12",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "sass": "^1.32.7",
+    "sass-loader": "^12.0.0",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
